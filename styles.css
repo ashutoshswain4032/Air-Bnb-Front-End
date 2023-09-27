@@ -1,0 +1,277 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width:410px;
+    padding: 10px;
+}
+.profile-img{
+    width:100%;
+    height: 370px;
+    border-radius: 14px;
+}
+.card-header{
+    position: relative;
+}
+.heart{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    top:20px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.sub{
+    font-size: 18px;
+    color: rgb(108, 106, 106);
+}
+#price{
+    font-weight: 500;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.flex-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    width: 15px;
+    height: 20px;
+}
+.flex-child{
+    display: flex;
+    gap:4px;
+    align-items: center;
+}
+.rating{
+    font-size: 18px;
+}
+.top-icon{
+    width:40px;
+    text-align: center;
+}
+.icon-img{
+    width:100%;
+    padding-left: 50px;
+}
+.icons{
+    display: flex;
+    gap:87px;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    width:140px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(95, 90, 90);
+}
+.left-arrow{
+    width: 20px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding:5px;
+}
+
+.container2{
+    display: flex;
+    gap:38px;
+    justify-content: center;
+    position: sticky;
+    top:106px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    z-index: 1;
+    background-color: white;
+    margin-top: 25px;
+}
+.btn-div{
+    position: relative;
+}
+.btn-div1{
+    position: relative;
+}
+.btn-div img{
+    width: 20px;
+    margin-left: 10px;
+}
+.btn-div1 img{
+    margin-right: 2px;
+}
+.btn-t1{
+    padding:20px 0px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn-t2{
+    padding:20px 0px;
+    padding-left:10px;
+    padding-right: 60px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn1{
+    position: absolute;
+    top:18px;
+    left:0;
+}
+.btn2{
+    position: absolute;
+    top:10px;
+    right: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid lightgray;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 410px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.head img{
+    height: 40px;
+    width:35px;
+}
+h1{
+    color: rgb(230, 73, 73);
+    font-size: 30px;
+}
+.btn-head{
+    display: flex;
+    margin: 0;
+    position: relative;
+}
+.btn-head img{
+    height: 40px;
+    width:40px;
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+.btn-left>img{
+    height: 20px;
+    width:20px;
+}
+.new-btn .img1{
+    height: 20px;
+    width:20px;
+    position: absolute;
+    left:15px;
+}
+.new-btn .img2{
+    height: 35px;
+    width:35px;
+    position: absolute;
+    right:10px;
+}
+.head-button1{
+    padding: 20px 30px;
+    color: rgb(41, 35, 35);
+    font-size: 18px;
+    font-weight: 550;
+    border-radius: 48px;
+    background-color: white;
+    border:2px solid lightgray;
+    padding-right: 60px;
+}
+.button-div{
+    display: flex;
+    gap: 30px;
+}
+.btn-left{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.button-div .p1{
+   border-right: 2px solid lightgrey;
+   padding-right:20px;
+}
+.button-div .p2{
+    border-right: 2px solid lightgrey;
+    padding-right:20px;
+ }
+ .button-div .p3{
+    color: rgb(96, 92, 92);
+ }
+ .invisible{
+    background-color: white;
+    border: none;
+    border-radius: 48px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .user-btn{
+    border-radius: 48px;
+    padding:25px 50px;
+    background-color: white;
+    border:1px solid lightgray;
+ }
+ .new-btn{
+    display: flex;
+    align-items: center;
+    position: relative;
+ }
+ .map{
+    transition: 0.2s;
+    position: fixed;
+    right: 850px;
+    bottom: 60px;
+    background-color: rgb(60, 53, 53);
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+}
+.map:hover{
+    padding: 25px 45px;
+    font-size: 25px;
+}
+.hov:hover{
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.hov2:hover{
+    background-color: rgb(225, 209, 209);
+}
+
+.hov3:hover{
+    color: black;
+}
